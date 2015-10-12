@@ -1,0 +1,45 @@
+<head>
+  <title>flatfinder</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-faded"><a href="#" class="navbar-brand">Flatfinder</a>
+    <ul class="nav navbar-nav pull-right">
+      <li class="nav-item"><a href="#" class="nav-link">Партнерство</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">О нас</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Авторизация</a></li>
+    </ul>
+  </nav>
+  <div class="search">
+    <div class="search__inner">
+      <form class="search__item form">
+        <div class="from">
+          <label for="formGroupExampleInput">Откуда</label>
+          <select class="form-control search__itemInfo">
+            <option value="">Медведково</option>
+            <option value="">Речной вокзал</option>
+            <option value="">Планерная</option>
+            <option value="">Домодедовская</option>
+            <option value="">Выхино</option>
+            <option value="">Университет</option>
+          </select>
+          <div data-icon="arrow" class="isvg"></div>
+        </div>
+        <div class="where">
+          <label for="formGroupExampleInput">Куда</label>
+          <select class="form-control search__itemInfo">
+            <option value="">Медведково</option>
+            <option value="">Речной вокзал</option>
+            <option value="">Планерная</option>
+            <option value="">Домодедовская</option>
+            <option value="">Выхино</option>
+            <option value="">Университет</option>
+          </select>
+          <div data-icon="arrow" class="isvg"></div>
+        </div>
+      </form>
+      <div class="btn btn-primary-outline">Подобрать жильё</div>
+    </div>
+  </div>
+  {{> loginButtons}}
+</body>
